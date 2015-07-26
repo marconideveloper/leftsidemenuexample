@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" id="AnchorPane" prefWidth="500" prefHeight="500"    fx:controller="leftslidemenusample.FXMLDocumentController">
+    <children>
+        
+        <ToolBar AnchorPane.topAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" minHeight="56.0"   >
+               <Button text="menu" fx:id="menu"  /> 
+        </ToolBar>
+        <StackPane fx:id="mainContent"  style="-fx-background-color:rgba(0,0,0,0.30)" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="56.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"    >
+            <children>
+           
+            </children>
+        </StackPane>
+        <AnchorPane fx:id="navList" style="-fx-background-color:white" AnchorPane.topAnchor="56.0" AnchorPane.bottomAnchor="0.0" prefWidth="180.0" translateX="-180"   >
+            <children>
+                <Label text="left side menu"/>
+            </children>
+        </AnchorPane>
+    
+    </children>
+    
+</AnchorPane>
